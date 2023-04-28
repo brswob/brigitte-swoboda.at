@@ -51,7 +51,7 @@
       }
     ],
     "uniqCompNum": 178,
-    "versionPublish": "5.6.5",
+    "versionPublish": "5.8.4",
     "screenshot": "screenshot.png",
     "witsec-white-label": false,
     "favicon": "@PROJECT_PATH@/assets/images/piano-icon-128x128-3.png",
@@ -551,11 +551,11 @@
           "_sourceTheme": "mobirise-amp",
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#dedede\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                © Brigitte Swoboda <a href=\"https://brigitte-swoboda.at/impressum\" class=\"text-black\">Impressum</a> <a href=\"https://brigitte-swoboda.at/datenschutz\" class=\"text-black\">Datenschutz</a></p>\n        </div>\n    </div>\n</section>",
           "_cid": "t1Y2eUxkRr",
+          "_anchor": "footer1-4x",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-4x"
+          "_params": {}
         }
       ]
     },
@@ -792,11 +792,11 @@
           "_sourceTheme": "mobirise-amp",
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#dedede\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                © Brigitte Swoboda <a href=\"https://brigitte-swoboda.at/impressum\" class=\"text-black\">Impressum</a> <a href=\"https://brigitte-swoboda.at/datenschutz\" class=\"text-black\">Datenschutz</a></p>\n        </div>\n    </div>\n</section>",
           "_cid": "t1Y2eUxkRr",
+          "_anchor": "footer1-4x",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-4x"
+          "_params": {}
         }
       ]
     },
@@ -1150,11 +1150,11 @@
           "_sourceTheme": "mobirise-amp",
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#dedede\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                © Brigitte Swoboda <a href=\"https://brigitte-swoboda.at/impressum\" class=\"text-black\">Impressum</a> <a href=\"https://brigitte-swoboda.at/datenschutz\" class=\"text-black\">Datenschutz</a></p>\n        </div>\n    </div>\n</section>",
           "_cid": "t1Y2eUxkRr",
+          "_anchor": "footer1-4x",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-4x"
+          "_params": {}
         }
       ]
     },
@@ -1410,11 +1410,11 @@
           "_sourceTheme": "mobirise-amp",
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#dedede\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                © Brigitte Swoboda <a href=\"https://brigitte-swoboda.at/impressum\" class=\"text-black\">Impressum</a> <a href=\"https://brigitte-swoboda.at/datenschutz\" class=\"text-black\">Datenschutz</a></p>\n        </div>\n    </div>\n</section>",
           "_cid": "t1Y2eUxkRr",
+          "_anchor": "footer1-4x",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-4x"
+          "_params": {}
         }
       ]
     },
@@ -1880,11 +1880,11 @@
           "_sourceTheme": "mobirise-amp",
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#dedede\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                © Brigitte Swoboda <a href=\"https://brigitte-swoboda.at/impressum\" class=\"text-black\">Impressum</a> <a href=\"https://brigitte-swoboda.at/datenschutz\" class=\"text-black\">Datenschutz</a></p>\n        </div>\n    </div>\n</section>",
           "_cid": "t1Y2eUxkRr",
+          "_anchor": "footer1-4x",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-4x"
+          "_params": {}
         }
       ]
     },
@@ -2193,11 +2193,11 @@
           "_sourceTheme": "mobirise-amp",
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#dedede\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                © Brigitte Swoboda <a href=\"https://brigitte-swoboda.at/impressum\" class=\"text-black\">Impressum</a> <a href=\"https://brigitte-swoboda.at/datenschutz\" class=\"text-black\">Datenschutz</a></p>\n        </div>\n    </div>\n</section>",
           "_cid": "t1Y2eUxkRr",
+          "_anchor": "footer1-4x",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-4x"
+          "_params": {}
         }
       ]
     },
@@ -2451,11 +2451,11 @@
           "_sourceTheme": "mobirise-amp",
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#dedede\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                © Brigitte Swoboda <a href=\"https://brigitte-swoboda.at/impressum\" class=\"text-black\">Impressum</a> <a href=\"https://brigitte-swoboda.at/datenschutz\" class=\"text-black\">Datenschutz</a></p>\n        </div>\n    </div>\n</section>",
           "_cid": "t1Y2eUxkRr",
+          "_anchor": "footer1-4x",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-4x"
+          "_params": {}
         }
       ]
     },
@@ -2542,9 +2542,10 @@
             }
           },
           "_name": "features10",
-          "_customHTML": "<section class=\"features10\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline=\"\" title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text Anzeigen\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle1\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text Anzeigen\" name=\"showText1\" checked=\"\">\n        <input type=\"checkbox\" title=\"Button(s) Anzeigen\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Media Links/Rechts\" name=\"flexDirection\">\n\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#eaeaea\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n       \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-6\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/brigitte-swoboda-bei-klavier-616x821-rund-616x651.png\" layout=\"responsive\" width=\"521.9970752688172\" height=\"551.656\" alt=\"Klavierunterricht Wien - Brigitte Swoboda\" class=\"mobirise-loader\" title=\"Klavierunterricht Wien - Brigitte Swoboda\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/brigitte-swoboda-bei-klavier-616x821-rund-616x651.png\" alt=\"Klavierunterricht Wien - Brigitte Swoboda\" title=\"Klavierunterricht Wien - Brigitte Swoboda\">\n                </amp-img>\n            </div>\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-6\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                    Termine sind jederzeit telefonisch vereinbar</h3>\n                <p class=\"mbr-fonts-style mbr-text align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                   <br>Regulärer Unterricht findet von Montag bis Freitag statt.<br>Auf Wunsch gibt es auch indiviuelle Termine am Wochenende, bitte einfach nachfragen.<br><br><br></p>\n              <h3 class=\"mbr-section-title mbr-fonts-style align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle1\" data-app-selector=\".mbr-section-title\">\n                    Preise<br></h3>\n                <p class=\"mbr-fonts-style mbr-text align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText1\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br>Eine Unterrichtseinheit dauert 60 Minuten. Die Kosten pro Einheit betragen 45€.<br>Für Unterrichtseinheiten länger als 60 Minuten verrechne ich pro 15 Minuten 10€.<br>Gerne biete ich Ihnen eine individuelle Lösung an, bitte einfach anfragen.</p>\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\">MEHR LESEN</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features10\" group=\"Features\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text Anzeigen\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle1\" checked>\n        <input type=\"checkbox\" title=\"Text Anzeigen\" name=\"showText1\" checked>\n        <input type=\"checkbox\" title=\"Button(s) Anzeigen\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Media Links/Rechts\" name=\"flexDirection\">\n\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#eaeaea\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n       \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"image-block mbr-col-sm-12 mbr-col-md-6\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/brigitte-swoboda-bei-klavier-616x821-rund-616x651.png\" layout=\"responsive\" width=\"521.9970752688172\" height=\"551.656\" alt=\"Klavierunterricht Wien - Brigitte Swoboda\" class=\"mobirise-loader\" title=\"Klavierunterricht Wien - Brigitte Swoboda\">\n                    <div placeholder class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/brigitte-swoboda-bei-klavier-616x821-rund-616x651.png\" alt=\"Klavierunterricht Wien - Brigitte Swoboda\" title=\"Klavierunterricht Wien - Brigitte Swoboda\">\n                </amp-img>\n            </div>\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-6\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                    Termine sind jederzeit telefonisch vereinbar</h3>\n                <p class=\"mbr-fonts-style mbr-text align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                   <br>Regulärer Unterricht findet von Montag bis Freitag statt.<br>Auf Wunsch gibt es auch indiviuelle Termine am Wochenende, bitte einfach nachfragen.<br><br><br></p>\n              <h3 class=\"mbr-section-title mbr-fonts-style align-left\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle1\" data-app-selector=\".mbr-section-title\">\n                    Preise<br></h3>\n                <p class=\"mbr-fonts-style mbr-text align-left\" mbr-theme-style=\"display-7\" mbr-if=\"showText1\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br>Eine Unterrichtseinheit dauert 60 Minuten. Die Kosten pro Einheit betragen 60€.<br>Für Unterrichtseinheiten länger als 60 Minuten verrechne ich pro 15 Minuten 15€.<br>Gerne biete ich Ihnen eine individuelle Lösung an, bitte einfach anfragen.</p>\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\">MEHR LESEN</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rzk9z01Mdq",
           "_anchor": "features10-2z",
+          "_sourceTheme": "mobirise-amp",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -2714,11 +2715,11 @@
           "_sourceTheme": "mobirise-amp",
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#dedede\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                © Brigitte Swoboda <a href=\"https://brigitte-swoboda.at/impressum\" class=\"text-black\">Impressum</a> <a href=\"https://brigitte-swoboda.at/datenschutz\" class=\"text-black\">Datenschutz</a></p>\n        </div>\n    </div>\n</section>",
           "_cid": "t1Y2eUxkRr",
+          "_anchor": "footer1-4x",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-4x"
+          "_params": {}
         }
       ]
     },
@@ -2892,6 +2893,7 @@
           "_customHTML": "<section class=\"header1\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full-Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Untertitel Anzeigen\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Text Anzeigen\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons Anzeigen\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"@PROJECT_PATH@/assets/images/klavierunterricht-wien-noten-1920x1280.jpg\" selected>\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#0dd1ff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-section-title mbr-fonts-style align-right mbr-bold mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n            <b>Mobirise AMP</b>\n        </h1>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style align-right mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubTitle\">\n            Beschleunigen Sie Ihre Site mit AMP\n        </h3>\n        <p class=\"mbr-fonts-style mbr-text align-right\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">\n            Full-Width Intro mit regulierbarer Höhe und Bild im Hintergrund. Klicken Sie auf den Text, um ihn zu bearbeiten oder zu stylen.\n        </p>\n        <div class=\"mbr-section-btn align-right\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n            <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\">\n                MEHR INFO\n            </a>\n        </div>\n    </div>\n\n</section>",
           "_cid": "rz9ugImp3c",
           "_anchor": "header1-2",
+          "_sourceTheme": "mobirise-amp",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -3094,11 +3096,11 @@
           "_sourceTheme": "mobirise-amp",
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#dedede\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                © Brigitte Swoboda <a href=\"https://brigitte-swoboda.at/impressum\" class=\"text-black\">Impressum</a> <a href=\"https://brigitte-swoboda.at/datenschutz\" class=\"text-black\">Datenschutz</a></p>\n        </div>\n    </div>\n</section>",
           "_cid": "t1Y2eUxkRr",
+          "_anchor": "footer1-4x",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-4x"
+          "_params": {}
         }
       ]
     },
@@ -3280,11 +3282,11 @@
           "_sourceTheme": "mobirise-amp",
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#dedede\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                © Brigitte Swoboda <a href=\"https://brigitte-swoboda.at/impressum\" class=\"text-black\">Impressum</a> <a href=\"https://brigitte-swoboda.at/datenschutz\" class=\"text-black\">Datenschutz</a></p>\n        </div>\n    </div>\n</section>",
           "_cid": "t1Y2eUxkRr",
+          "_anchor": "footer1-4x",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-4x"
+          "_params": {}
         }
       ]
     },
@@ -3517,11 +3519,11 @@
           "_sourceTheme": "mobirise-amp",
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#dedede\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                © Brigitte Swoboda <a href=\"https://brigitte-swoboda.at/impressum\" class=\"text-black\">Impressum</a> <a href=\"https://brigitte-swoboda.at/datenschutz\" class=\"text-black\">Datenschutz</a></p>\n        </div>\n    </div>\n</section>",
           "_cid": "t1Y2eUxkRr",
+          "_anchor": "footer1-4x",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-4x"
+          "_params": {}
         }
       ]
     },
@@ -3799,11 +3801,11 @@
           "_sourceTheme": "mobirise-amp",
           "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#dedede\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                © Brigitte Swoboda <a href=\"https://brigitte-swoboda.at/impressum\" class=\"text-black\">Impressum</a> <a href=\"https://brigitte-swoboda.at/datenschutz\" class=\"text-black\">Datenschutz</a></p>\n        </div>\n    </div>\n</section>",
           "_cid": "t1Y2eUxkRr",
+          "_anchor": "footer1-4x",
           "_protectedParams": [],
           "_global": true,
           "_once": "footer",
-          "_params": {},
-          "_anchor": "footer1-4x"
+          "_params": {}
         }
       ]
     }
