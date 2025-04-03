@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- Clipping path für den abgerundeten Rahmen -->
+  <defs>
+    <clipPath id="rounded-corners">
+      <rect x="1" y="1" width="22" height="22" rx="3" ry="3"/>
+    </clipPath>
+  </defs>
+  
+  <!-- Äußerer Rahmen mit abgerundeten Ecken -->
+  <rect x="1" y="1" width="22" height="22" fill="white" stroke="black" stroke-width="2" rx="3" ry="3"/>
+  
+  <!-- Gruppe für alle Tasten, mit Clipping Path -->
+  <g clip-path="url(#rounded-corners)">
+    <!-- Weiße Tasten (Grundlayout) -->
+    <rect x="1" y="1" width="4.4" height="22" fill="white"/>
+    <rect x="5.4" y="1" width="4.4" height="22" fill="white"/>
+    <rect x="9.8" y="1" width="4.4" height="22" fill="white"/>
+    <rect x="14.2" y="1" width="4.4" height="22" fill="white"/>
+    <rect x="18.6" y="1" width="4.4" height="22" fill="white"/>
+  
+    <!-- Vertikale Linien zwischen den weißen Tasten -->
+    <line x1="5.4" y1="1" x2="5.4" y2="23" stroke="black" stroke-width="0.5"/>
+    <line x1="9.8" y1="1" x2="9.8" y2="23" stroke="black" stroke-width="0.5"/>
+    <line x1="14.2" y1="1" x2="14.2" y2="23" stroke="black" stroke-width="0.5"/>
+    <line x1="18.6" y1="1" x2="18.6" y2="23" stroke="black" stroke-width="0.5"/>
+  
+    <!-- Schwarze Tasten -->
+    <rect x="3.9" y="1" width="3" height="14" fill="black"/>
+    <rect x="8.3" y="1" width="3" height="14" fill="black"/>
+    <rect x="16.7" y="1" width="3" height="14" fill="black"/>
+  </g>
+</svg>
