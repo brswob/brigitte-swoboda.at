@@ -1,0 +1,75 @@
+/* ===== Legal Pages Styles (Impressum & Datenschutz) ===== */
+.legal-content { /* Shared class for both pages */
+  padding: 3rem 0 5rem;
+  background-color: var(--bg-color);
+  transition: background-color var(--transition-base);
+}
+
+.legal-content__container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.legal-content__details {
+  background-color: var(--light-gray);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px var(--shadow-color);
+  transition: background-color var(--transition-base), box-shadow var(--transition-base);
+}
+
+.legal-content__details p {
+  margin-bottom: 1.2rem;
+  font-size: 1.05rem; /* Slightly adjusted */
+  line-height: 1.7;
+}
+.legal-content__details p:last-child {
+    margin-bottom: 0;
+}
+
+.legal-content__details a {
+  color: var(--secondary-color);
+  word-break: break-all; /* Break long URLs */
+}
+
+.legal-content__details a:hover {
+  text-decoration: underline;
+}
+
+/* Specific styles for privacy page sections */
+.legal-content__details h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem; /* Adjusted */
+  font-weight: 600;
+  color: var(--text-color);
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--dark-gray);
+}
+.legal-content__details h2:first-of-type {
+    margin-top: 0; /* Remove top margin for the first h2 */
+}
+
+
+.legal-content__details ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  list-style-type: disc;
+}
+.legal-content__details li {
+    margin-bottom: 0.5rem;
+}
+
+
+@media (max-width: 768px) {
+  .legal-content__details {
+    padding: 1.5rem;
+  }
+  .legal-content__details p {
+      font-size: 1rem;
+  }
+  .legal-content__details h2 {
+      font-size: 1.4rem;
+  }
+}

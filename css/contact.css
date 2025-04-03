@@ -1,0 +1,206 @@
+/* ===== Contact Page Styles ===== */
+.contact-details {
+  padding: 4rem 0;
+  background-color: var(--light-gray);
+  transition: background-color var(--transition-base);
+}
+
+.contact-details__grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Default single column */
+  gap: 2rem;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+    .contact-details__grid {
+        grid-template-columns: 1fr 1fr; /* Two columns on large screens */
+    }
+}
+
+.contact-details__map {
+  min-height: 400px;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px var(--shadow-color);
+  transition: box-shadow var(--transition-base);
+  position: relative; /* Needed for placeholder overlay */
+  background-color: var(--dark-gray); /* Placeholder background */
+}
+
+.contact-details__map iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  border: 0;
+  filter: var(--map-filter, none);
+  transition: filter var(--transition-base), opacity 0.3s ease; /* Add opacity transition */
+  position: absolute; /* Allow iframe to overlay placeholder */
+  top: 0;
+  left: 0;
+  opacity: 1; /* Make visible by default */
+}
+
+
+[data-theme="dark"] .contact-details__map iframe {
+  --map-filter: invert(0.9) hue-rotate(180deg);
+}
+
+.contact-details__info {
+  padding: 1rem 0;
+}
+
+.contact-details__title {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.contact-details__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-details__list li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-details__icon {
+  width: 25px;
+  color: var(--secondary-color);
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.contact-details__list a {
+  color: var(--text-color);
+  word-break: break-word;
+}
+
+.contact-details__list a:hover {
+  color: var(--secondary-color);
+}
+
+/* Map Placeholder Styles - Reuse from home.css or define specifically */
+.map-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background-color: var(--light-gray);
+    border-radius: 10px;
+    transition: opacity 0.3s ease, visibility 0s 0.3s; /* Fade out */
+    opacity: 1;
+    visibility: visible;
+}
+
+.map-placeholder__overlay {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(var(--bg-color-rgb, 255, 255, 255), 0.9);
+    border-radius: 8px;
+    color: var(--text-color);
+    box-shadow: 0 2px 5px var(--shadow-color);
+}
+[data-theme="dark"] .map-placeholder__overlay {
+     background-color: rgba(var(--bg-color-rgb, 32, 32, 32), 0.95);
+}
+
+.map-placeholder__overlay p {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+.map-placeholder__button {
+    margin: 0.5rem 0;
+}
+.map-placeholder__notice {
+    font-size: 0.8rem;
+    color: var(--accent-color);
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+.map-placeholder__notice a {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+.map-placeholder__notice a:hover {
+    color: var(--text-color);
+}
+
+/* Hide placeholder smoothly when map is loaded */
+.contact-details__map .map-placeholder.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Ensure iframe starts invisible if placeholder is shown */
+.contact-details__map iframe:not([src]) {
+    opacity: 0;
+    visibility: hidden;
+}
+.contact-details__map iframe[src] {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+@media (max-width: 991px) {
+   .contact-details__info {
+       padding-left: 0;
+   }
+}
+
+@media (max-width: 768px) {
+   .contact-details__map {
+       min-height: 350px;
+   }
+    .contact-details__map iframe {
+        min-height: 350px;
+    }
+}
+
+
+@media (max-width: 480px) {
+  .contact-details__title {
+    font-size: 1.6rem;
+  }
+  .contact-details {
+      padding: 3rem 0;
+  }
+   .contact-details__map {
+       min-height: 300px;
+   }
+   .contact-details__map iframe {
+        min-height: 300px;
+    }
+    .map-placeholder__overlay {
+        padding: 0.8rem;
+    }
+    .map-placeholder__overlay p {
+        font-size: 0.9rem;
+    }
+    .map-placeholder__button {
+        font-size: 0.8rem;
+        padding: 0.5rem 1rem;
+    }
+    .map-placeholder__notice {
+        font-size: 0.75rem;
+    }
+}
+
+/* Add RGB variables for overlay background */
+:root {
+    --bg-color-rgb: 255, 255, 255;
+}
+[data-theme="dark"] {
+    --bg-color-rgb: 32, 32, 32;
+}

@@ -1,0 +1,221 @@
+/* ===== Gallery Page Styles ===== */
+.gallery {
+  padding: 3rem 0 4rem; /* Adjusted padding */
+  background-color: var(--bg-color);
+  transition: background-color var(--transition-base);
+}
+
+.gallery__grid {
+  display: grid;
+  /* Responsive grid: more columns on larger screens */
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.gallery__item {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px var(--shadow-color);
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+  background-color: var(--dark-gray); /* Placeholder bg */
+}
+
+.gallery__item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px var(--shadow-color);
+}
+
+.gallery__link {
+  display: block; /* Make link cover the item */
+  cursor: pointer;
+}
+
+.gallery__image {
+  width: 100%;
+  height: 250px; /* Maintain aspect ratio better */
+  object-fit: cover;
+  transition: transform var(--transition-base), filter var(--transition-base);
+  display: block; /* Remove extra space below image */
+}
+
+[data-theme="dark"] .gallery__image {
+  filter: brightness(0.85);
+}
+
+.gallery__item:hover .gallery__image {
+  transform: scale(1.05);
+}
+
+.gallery__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity var(--transition-base);
+  pointer-events: none; /* Allow clicks to pass through to link */
+}
+
+.gallery__item:hover .gallery__overlay {
+  opacity: 1;
+}
+
+.gallery__overlay i {
+  color: var(--light-color);
+  font-size: 2rem;
+}
+
+/* ===== Modern Custom Lightbox Styles (Integrated) ===== */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10001; /* High z-index */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0s 0.4s; /* Delay visibility transition */
+  cursor: pointer; /* Indicate clicking outside closes */
+}
+
+.lightbox.active {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.4s ease, visibility 0s 0s;
+}
+
+
+[data-theme="dark"] .lightbox {
+  background-color: rgba(10, 10, 10, 0.97); /* Darker overlay */
+}
+
+.lightbox__content {
+  position: relative;
+  max-width: 95%;
+  max-height: 95%;
+  display: flex; /* Use flex for centering image */
+  align-items: center;
+  justify-content: center;
+  cursor: default; /* Prevent closing when clicking image */
+  transform: scale(0.9); /* Initial scale for animation */
+  opacity: 0; /* Start faded out */
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.lightbox.active .lightbox__content {
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+.lightbox__image {
+  display: block;
+  max-width: 100%;
+  max-height: 90vh; /* Limit height relative to viewport */
+  object-fit: contain;
+  border-radius: 3px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.lightbox__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(30, 30, 30, 0.6);
+  color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  font-size: 24px;
+  line-height: 44px; /* Center icon vertically */
+  text-align: center;
+  cursor: pointer;
+  z-index: 10003;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  display: flex; /* Center icon */
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox__button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+.lightbox__button--close {
+  top: 20px;
+  right: 20px;
+  transform: none; /* Reset transform */
+  width: 36px;
+  height: 36px;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.lightbox__button--prev {
+  left: 20px;
+}
+
+.lightbox__button--next {
+  right: 20px;
+}
+
+/* Hide nav buttons if only one image */
+.lightbox[data-single-image="true"] .lightbox__button--prev,
+.lightbox[data-single-image="true"] .lightbox__button--next {
+    display: none;
+}
+
+
+/* Optimierung für mobile Geräte */
+@media (max-width: 768px) {
+  .gallery__grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  .gallery__image {
+    height: 200px;
+  }
+
+  .lightbox__button {
+    width: 38px;
+    height: 38px;
+    font-size: 20px;
+    line-height: 38px;
+  }
+  .lightbox__button--close {
+    top: 15px;
+    right: 15px;
+    width: 32px;
+    height: 32px;
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .lightbox__button--prev {
+    left: 10px;
+  }
+  .lightbox__button--next {
+    right: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+    .gallery__grid {
+        grid-template-columns: repeat(auto-fill, minmax(calc(50% - 0.5rem), 1fr)); /* Two columns */
+        gap: 1rem;
+    }
+    .gallery__image {
+        height: 180px;
+    }
+}

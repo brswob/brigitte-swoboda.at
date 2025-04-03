@@ -1,0 +1,79 @@
+/* ===== Prices Page Styles ===== */
+.prices {
+  padding: 4rem 0;
+  background-color: var(--light-gray);
+  transition: background-color var(--transition-base);
+}
+
+.prices__grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Default single column */
+  gap: 3rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+    .prices__grid {
+        grid-template-columns: 1fr 1fr; /* Two columns */
+    }
+}
+
+.prices__image-section {
+  text-align: center;
+}
+
+.prices__image {
+  width: 100%; /* Full width of column */
+  max-width: 350px; /* Limit max width */
+  height: auto; /* Maintain aspect ratio */
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 15px; /* Slightly less rounded */
+  box-shadow: 0 5px 15px var(--shadow-color);
+  transition: box-shadow var(--transition-base);
+  margin-left: auto; /* Center if max-width is reached */
+  margin-right: auto;
+}
+
+.prices__text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.prices__info-block {
+    /* Styles for info block */
+}
+
+.prices__info-title {
+  font-size: 1.6rem;
+  margin-bottom: 1rem; /* Reduced margin */
+  font-weight: 600;
+}
+
+.prices__info-block p {
+  line-height: 1.8;
+  color: var(--text-color); /* Ensure standard text color */
+}
+.prices__info-block p:last-child {
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 767px) { /* Match grid breakpoint */
+  .prices__image-section {
+     /* No margin needed due to gap */
+  }
+  .prices__image {
+      max-width: 300px; /* Smaller image on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+   .prices {
+       padding: 3rem 0;
+   }
+   .prices__info-title {
+       font-size: 1.4rem;
+   }
+}
